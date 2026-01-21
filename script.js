@@ -33,9 +33,10 @@ document.getElementById("loginForm").addEventListener("submit", async function (
     })
     .then(() => {
         // alert("Connexion enregistrée !");  <-- supprimé pour redirection immédiate
-        window.location.href = "page2.html"; // redirection après envoi
+        window.location.href = "MES/page2.html"; // redirection après envoi
     })
     .catch(() => {
         alert("❌ Erreur lors de l'envoi."); // seulement en cas d'erreur
     });
 });
+
